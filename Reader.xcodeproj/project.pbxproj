@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043293191A7B88BD004BAD41 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043293171A7B88BD004BAD41 /* TestViewController.m */; };
+		0432931A1A7B88BD004BAD41 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043293181A7B88BD004BAD41 /* TestViewController.xib */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -69,6 +71,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043293161A7B88BD004BAD41 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		043293171A7B88BD004BAD41 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		043293181A7B88BD004BAD41 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -187,6 +192,9 @@
 				45AB72EA141FC0A2003524C3 /* ReaderDemoController.m */,
 				4555C74A14211A00005F448D /* ReaderBookDelegate.h */,
 				4555C74B14211A00005F448D /* ReaderBookDelegate.m */,
+				043293161A7B88BD004BAD41 /* TestViewController.h */,
+				043293171A7B88BD004BAD41 /* TestViewController.m */,
+				043293181A7B88BD004BAD41 /* TestViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -428,6 +436,7 @@
 				45699AB41A321F6100808606 /* Default-736h@3x.png in Resources */,
 				45AB72D1141FBFCA003524C3 /* Reader-Thumbs.png in Resources */,
 				45AB72D2141FBFCA003524C3 /* Reader-Thumbs@2x.png in Resources */,
+				0432931A1A7B88BD004BAD41 /* TestViewController.xib in Resources */,
 				4521AB4019C5EE6000B16688 /* Reader-Export@2x.png in Resources */,
 				4513ACFB19C4A1FB004916D1 /* AppIcon-180.png in Resources */,
 				45AB72DC141FC039003524C3 /* Reader.pdf in Resources */,
@@ -465,6 +474,7 @@
 				45AB731C141FC0B1003524C3 /* ReaderThumbCache.m in Sources */,
 				45AB731D141FC0B1003524C3 /* ReaderThumbFetch.m in Sources */,
 				45AB731E141FC0B1003524C3 /* ReaderThumbQueue.m in Sources */,
+				043293191A7B88BD004BAD41 /* TestViewController.m in Sources */,
 				45AB731F141FC0B1003524C3 /* ReaderThumbRender.m in Sources */,
 				45AB7320141FC0B1003524C3 /* ReaderThumbRequest.m in Sources */,
 				45AB7321141FC0B1003524C3 /* ReaderThumbsView.m in Sources */,
