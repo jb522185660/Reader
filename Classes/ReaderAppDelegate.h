@@ -27,4 +27,6 @@
 
 @interface ReaderAppDelegate : NSObject <UIApplicationDelegate>
 
+@property (strong,nonatomic)NSObject *hehe;
+
 @end
